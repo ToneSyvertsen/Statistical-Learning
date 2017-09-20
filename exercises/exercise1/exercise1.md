@@ -52,4 +52,4 @@ plt.show()
 
 ```
 
-￼![Training](exercise1/ex1_trainingset.png)
+￼![Training](ex1_trainingset.png)
