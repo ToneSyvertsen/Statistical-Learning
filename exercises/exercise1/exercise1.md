@@ -5,9 +5,33 @@ dataset = pd.read_csv('ex1data1.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
+plt.scatter(X, y, color = 'red')
 ```
 
+This is the plots from the data:
+
+
 ￼![The plot](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/plot_ex1.png)
+
+
+Then I try making a prediction
+```
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X, y)
+Out[177]: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+y_pred = regressor.predict(X)
+
+plt.scatter(X, y, color = 'red')
+plt.plot(X, regressor.predict(X), color = 'blue')
+plt.title('Population vs Profit (Training set)')
+plt.xlabel('Population')
+plt.ylabel('Profit')
+plt.show()
+
+```
+![The plot](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/plot_ex1.png)
 
 If this is the correct way of doing it, seems strange ;)
 It seems like the biggest towns is the most profitable once..
