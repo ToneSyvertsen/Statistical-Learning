@@ -25,13 +25,14 @@ y_pred = regressor.predict(X)
 
 plt.scatter(X, y, color = 'red')
 plt.plot(X, regressor.predict(X), color = 'blue')
-plt.title('Population vs Profit (Training set)')
+plt.title('Population vs Profit')
 plt.xlabel('Population')
 plt.ylabel('Profit')
 plt.show()
 
 ```
-![The plot](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/plot_ex1.png)
+
+![The plot](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/plot_pred_ex1.png)
 
 If this is the correct way of doing it, seems strange ;)
 It seems like the biggest towns is the most profitable once..
