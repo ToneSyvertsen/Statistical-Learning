@@ -52,4 +52,4 @@ plt.show()
 
 ```
 
-￼![Training](https://github.com/ToneSyvertsen/Statistical-Learning/commit/4bc4f9688c36ae8dfbc921d364619f0621ee7d98)
+￼![Training](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/ex1_trainingset.png)
