@@ -7,6 +7,13 @@ y = dataset.iloc[:, 1].values
 
 ```
 
+￼![The plot](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/plot_ex1.png)
+
+If this is the correct way of doing it, seems strange ;)
+It seems like the biggest towns is the most profitable once..
+With a few exceptions..
+
+
 I splitted it into two as we have learned.
 
 ```
@@ -53,3 +60,5 @@ plt.show()
 ```
 
 ￼![Training](https://github.com/ToneSyvertsen/Statistical-Learning/blob/master/exercises/exercise1/ex1_trainingset.png)
+
+
