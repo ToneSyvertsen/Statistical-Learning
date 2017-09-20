@@ -36,7 +36,7 @@ plt.ylabel('Profit')
 plt.show()
 
 ```
-![Test](Statistical-Learning/exercises/ex1 test set.png)
+![Test](exercises/ex1 test set.png)
 ￼
 And at last I made the plot for the test set with the prediction
 
