@@ -37,6 +37,7 @@ plt.show()
 
 ```
 ![Test](exercises/ex1 test set.png)
+
 ￼
 And at last I made the plot for the test set with the prediction
 
@@ -51,4 +52,4 @@ plt.show()
 
 ```
 
-￼![Training](ex1 trainingset.png)
+￼![Training](4c5dae1)
